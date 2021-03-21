@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    implementation 'org.slf4j:slf4j-api:1.7.30'
+    runtimeOnly 'org.apache.logging.log4j:log4j-slf4j-impl:2.14.1'
+
+    implementation 'com.hivemq:hivemq-mqtt-client:1.2.1'
+}
