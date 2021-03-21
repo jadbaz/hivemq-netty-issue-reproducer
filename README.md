@@ -1,4 +1,6 @@
 # HiveMQ Client JDK 9+ Netty Warnings Reproducer
+Issue at [hivemq/hivemq-mqtt-client/issues/473](https://github.com/hivemq/hivemq-mqtt-client/issues/473)
+
 ## Output with different JDKs
 ### JDK 8
 ```
